@@ -225,15 +225,15 @@ HUOM: asut KELA:n ja YLE ovat vanhentuneita. Nykysuositus on Kela ja Yle.
 ### 5.1 Numerot vai kirjaimet
 
 - Pienet luvut (1–10) mielellään kirjaimin juoksevassa tekstissä: yksi, kaksi, kolme
-- Suuret ja tarkat luvut numeroilla: 150, 2 500, 1 000 000
+- Suuret ja tarkat luvut numeroilla: 150, 2 500, 1 000 000
 - Tilastollisissa ja teknisissä yhteyksissä luvut aina numeroilla
 
 ### 5.2 Tuhaterottimet ja desimaalit
 
-- Tuhaterotin on välilyönti (EI piste, EI pilkku): 1 000, 10 000, 1 000 000
+- Tuhaterotin on välilyönti (EI piste, EI pilkku): 1 000, 10 000, 1 000 000
   - Välilyöntinä käytetään ensisijaisesti sitovaa välilyöntiä (Unicode-merkkikoodi U+00A0), jotta luku ei jakaudu eri riveille
 - Desimaalierotin on pilkku: 3,14 ja 0,5
-- Nelinumeroiset luvut voi kirjoittaa ilman tuhaterotinta: 1000 tai 1 000
+- Nelinumeroiset luvut voi kirjoittaa ilman tuhaterotinta: 1000 tai 1 000
 
 ### 5.3 Päivämäärät
 

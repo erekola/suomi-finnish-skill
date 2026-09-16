@@ -12,15 +12,15 @@ Built on the official [Kielitoimiston ohjepankki](https://kielitoimistonohjepank
 
 LLMs make predictable mistakes when writing Finnish:
 
-- **Compound words split apart**: "verkko sivusto" instead of *verkkosivu*, "asiakas palvelu" instead of *asiakaspalvelu*
-- **Anglicisms everywhere**: "sukella syvemmalle", "implementoida", "adressoida"
+- **Compound words split apart**: "verkko sivusto" instead of *verkkosivusto*, "asiakas palvelu" instead of *asiakaspalvelu*
+- **Anglicisms everywhere**: "sukella syvemmälle", "implementoida", "adressoida"
 - **Wrong punctuation**: English-style decimals (3.14 instead of 3,14), Oxford commas, missing commas before subordinate clauses
 - **Overly pompous tone**: American corporate rhetoric translated literally into Finnish
 - **Capitalization errors**: weekdays, months, and nationalities capitalized (English rules applied to Finnish)
 - **Broken inflection**: Finnish has 15 grammatical cases and complex word inflection — LLMs frequently produce wrong case endings, garbled possessive suffixes, and incorrect verb conjugations
 - **Mangled ä and ö**: LLMs drop or swap Finnish diacritics, writing "a" instead of "ä" and "o" instead of "ö", which changes word meanings entirely and leads to incorrect translations
 
-This skill catches and prevents all of these. It's been used in production to generate hundreds of pages of Finnish web content.
+This skill gives the model a rule for each of these. It's been used in production to generate hundreds of pages of Finnish web content.
 
 ## Installation
 
@@ -122,7 +122,7 @@ Older copies of `SKILL.md` keep working as before — nothing was removed from i
 | Capitalization | Lowercase weekdays, months, nationalities |
 | Numbers & units | Space as thousands separator, unit spacing (5 kg, 15 %) |
 | Abbreviations | Dot rules, inflection with colons (EU:n) |
-| Dashes | Hyphen (-) vs. en dash (--) usage |
+| Dashes | Hyphen (-) vs. en dash (–) usage |
 | Sentence structure | Case agreement, postpositions, possessive suffixes |
 | AI-specific errors | Anglicisms, overly formal tone, filler text |
 | Proofreading | Step-by-step review checklist |
@@ -173,7 +173,7 @@ MIT
 
 # Suomen kielen skills-tiedosto Claudelle, Codexille tai mille tahansa muulle skills-ominaisuutta tukevalle työkalulle
 
-**Opeta tekoäly kirjoittamaan oikeaa suomea.** Tämä skill antaa tekoälylle kattavat suomen kielen säännöt — oikeinkirjoituksen, kieliopin, pilkutuksen, yhdyssanat ja tyylin — jotta se tuottaa luonnollista, julkaisukelpoista suomea anglismien täyttämän konekielen sijaan.
+**Opeta tekoäly kirjoittamaan oikeaa suomea.** Tämä skill antaa tekoälylle kattavat suomen kielen säännöt (oikeinkirjoitus, kielioppi, pilkutus, yhdyssanat ja tyyli), jotta se tuottaa luonnollista, julkaisukelpoista suomea anglismien täyttämän konekielen sijaan.
 
 Toimii Claude Coden, Codexin ja minkä tahansa muun skillejä tukevan tekoälyagentin kanssa.
 
@@ -274,19 +274,19 @@ Vanhat `SKILL.md`-kopiot toimivat edelleen kuten ennenkin: tiedostosta ei ole po
 - Pilkutus (sivulauseet, päälauseet, luettelot)
 - Iso ja pieni alkukirjain
 - Numerot, lyhenteet ja mittayksiköt
-- Ajatusviiva vs. yhdysviiva
+- Ajatusviiva ja yhdysmerkki
 - Lauserakenne ja kielioppi
 - Tekoälylle tyypilliset virheet (anglismit, mahtipontisuus, täytesanat)
 - Vaiheittainen oikolukuprosessi
 
 Lisäksi `references/`-kansiossa tarkemmat ohjeet, jotka ladataan tarvittaessa:
 
-- `luetelmat.md` — luetelmien välimerkit, alkukirjaimet ja samanmuotoisuus
-- `lauserakenne.md` — paikallissija-attribuutit, kelluva essiivi, joka/mikä, substantiivitauti
-- `taivutus.md` — vieraskielisten nimien taivutus, rektiot, lyhenteiden taivutus
-- `valimerkit.md` — puolipiste, kaksoispiste, sulkeet, poisjätön merkintä, sitova välilyönti
-- `merkinnat.md` — päivämäärät, kellonajat, suureet, yhteystiedot, aakkostus
-- `sanojen-asu.md` — vierassanojen asu, anglismit, rinnakkain hyväksytyt muodot
+- `luetelmat.md`: luetelmien välimerkit, alkukirjaimet ja samanmuotoisuus
+- `lauserakenne.md`: paikallissija-attribuutit, kelluva essiivi, joka/mikä, substantiivitauti
+- `taivutus.md`: vieraskielisten nimien taivutus, rektiot, lyhenteiden taivutus
+- `valimerkit.md`: puolipiste, kaksoispiste, sulkeet, poisjätön merkintä, sitova välilyönti
+- `merkinnat.md`: päivämäärät, kellonajat, suureet, yhteystiedot, aakkostus
+- `sanojen-asu.md`: vierassanojen asu, anglismit, rinnakkain hyväksytyt muodot
 
 ## Lisenssi
 
