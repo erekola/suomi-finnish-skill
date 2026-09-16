@@ -64,7 +64,7 @@ Install this skill: https://github.com/akunikkola/suomi-finnish-skill
 
 A zip containing the whole skill — `SKILL.md` and the `references/` folder:
 
-[Download suomi-finnish.zip (Google Drive)](https://drive.google.com/file/d/1NkfIn7sj8bvBmAM4ZI2ypP3kv9UtRMHF/view?usp=sharing)
+[Download suomi-finnish.zip (Google Drive)](https://drive.google.com/file/d/1eBQtjvTqyz19NJB-MeMmg92LUVCVbcAB/view?usp=sharing)
 
 On claude.ai: Settings → Skills → **+ Create skill**, then upload the zip. In Claude Code, unpack it into `.claude/skills/`.
 
@@ -219,7 +219,7 @@ Asenna tämä skill: https://github.com/akunikkola/suomi-finnish-skill
 
 Zip-tiedosto, joka sisältää koko skillin eli `SKILL.md`:n ja `references/`-kansion:
 
-[Lataa suomi-finnish.zip (Google Drive)](https://drive.google.com/file/d/1NkfIn7sj8bvBmAM4ZI2ypP3kv9UtRMHF/view?usp=sharing)
+[Lataa suomi-finnish.zip (Google Drive)](https://drive.google.com/file/d/1eBQtjvTqyz19NJB-MeMmg92LUVCVbcAB/view?usp=sharing)
 
 claude.ai:ssa: Asetukset → Skills → **+ Create skill**, ja lataa zip. Claude Codessa pura se `.claude/skills/`-kansioon.
 
