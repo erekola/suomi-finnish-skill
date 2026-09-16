@@ -60,13 +60,19 @@ Give Claude, Codex, or any other skill-supporting AI the repo URL and ask it to 
 Install this skill: https://github.com/akunikkola/suomi-finnish-skill
 ```
 
-### Option 5: Download the .skill file
+### Option 5: Download the ready-made package
 
-Download the ready-made skill package and add it directly to Claude:
+A zip containing the whole skill — `SKILL.md` and the `references/` folder:
 
-[Download suomi-finnish.skill (Google Drive)](https://drive.google.com/file/d/1NkfIn7sj8bvBmAM4ZI2ypP3kv9UtRMHF/view?usp=sharing)
+[Download suomi-finnish.zip (Google Drive)](https://drive.google.com/file/d/1NkfIn7sj8bvBmAM4ZI2ypP3kv9UtRMHF/view?usp=sharing)
 
-Add the downloaded file to Claude by dragging it into the Claude Code window or importing it as a skill from settings.
+On claude.ai: Settings → Skills → **+ Create skill**, then upload the zip. In Claude Code, unpack it into `.claude/skills/`.
+
+To rebuild the package from source:
+
+```bash
+./scripts/build-skill-package.sh
+```
 
 ### Option 6: Single file with everything included
 
@@ -209,13 +215,19 @@ Anna Claudelle, Codexille tai muulle skillejä tukevalle tekoälylle repon osoit
 Asenna tämä skill: https://github.com/akunikkola/suomi-finnish-skill
 ```
 
-### Vaihtoehto 5: Lataa .skill-tiedosto
+### Vaihtoehto 5: Lataa valmis paketti
 
-Lataa valmis skill-paketti ja lisää se suoraan Claudeen:
+Zip-tiedosto, joka sisältää koko skillin eli `SKILL.md`:n ja `references/`-kansion:
 
-[Lataa suomi-finnish.skill (Google Drive)](https://drive.google.com/file/d/1NkfIn7sj8bvBmAM4ZI2ypP3kv9UtRMHF/view?usp=sharing)
+[Lataa suomi-finnish.zip (Google Drive)](https://drive.google.com/file/d/1NkfIn7sj8bvBmAM4ZI2ypP3kv9UtRMHF/view?usp=sharing)
 
-Lisää ladattu tiedosto Claudeen raahaamalla se Claude Code -ikkunaan tai tuomalla se skillinä asetuksista.
+claude.ai:ssa: Asetukset → Skills → **+ Create skill**, ja lataa zip. Claude Codessa pura se `.claude/skills/`-kansioon.
+
+Paketin rakentaminen lähdekoodista:
+
+```bash
+./scripts/build-skill-package.sh
+```
 
 ### Vaihtoehto 6: Yksi tiedosto, joka sisältää kaiken
 
