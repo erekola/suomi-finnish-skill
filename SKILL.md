@@ -10,6 +10,21 @@ Tämä skill sisältää keskeiset suomen kielen kirjoitusohjeet ja säännöt, 
 
 Lähde: Kielitoimiston ohjepankki (Kotimaisten kielten keskus / Opetushallitus).
 
+## Tarkemmat ohjeet
+
+Tämä tiedosto sisältää ydinsäännöt, jotka riittävät useimpiin tehtäviin. Kun työ koskee alla olevaa aihetta, **lue myös vastaava tiedosto `references/`-kansiosta, jos se on saatavilla**, ennen kuin tuotat tai korjaat tekstin.
+
+| Tiedosto | Lue, kun |
+|---|---|
+| `references/luetelmat.md` | tekstissä on ranskalaisia viivoja tai numeroitu luettelo |
+| `references/lauserakenne.md` | teksti on käännös englannista tai virkkeet ovat raskaita |
+| `references/taivutus.md` | tekstissä on vieraskielisiä nimiä, lyhenteitä tai epävarmoja rektioita |
+| `references/valimerkit.md` | tekstissä on puolipisteitä, sulkeita, lainauksia tai poistoja lainauksesta |
+| `references/merkinnat.md` | tekstissä on päivämääriä, kellonaikoja, mittoja tai yhteystietoja |
+| `references/sanojen-asu.md` | teksti sisältää vierassanoja tai kuulostaa anglistiselta |
+
+**Nämä tiedostot ovat valinnaisia.** Jos `references/`-kansiota ei löydy — esimerkiksi kun skill on asennettu yhtenä tiedostona — älä pidä sitä virheenä äläkä keskeytä työtä. Tämän tiedoston säännöt toimivat itsenäisesti, joten jatka niiden varassa.
+
 ---
 
 ## 1. YHDYSSANAT — Yleisin virhetyyppi
@@ -359,6 +374,15 @@ Suomen kielen sanajärjestys on vapaampi kuin englannin, mutta tekoäly usein no
 
 Kun tarkistat suomenkielistä tekstiä, käy läpi seuraava tarkistuslista järjestyksessä:
 
+### Vaihe 0: Luetelmat
+
+Jos tekstissä on luetelmia, tarkista ne ensin — ne ovat yleisin yksittäinen virhepesäke. Ks. `references/luetelmat.md`.
+
+- Ovatko osat keskenään samanmuotoisia?
+- Onko alkukirjain oikea (iso vain täysissä virkkeissä)?
+- Onko osien välissä turhia pilkkuja tai puolipisteitä?
+- Onko viimeisen osan edessä turha **ja**?
+
 ### Vaihe 1: Yhdyssanatarkistus
 - Käy läpi kaikki substantiivi + substantiivi -yhdistelmät
 - Tarkista, että perusmuotoisella substantiivilla alkavat ilmaukset on kirjoitettu yhteen
@@ -387,6 +411,11 @@ Kun tarkistat suomenkielistä tekstiä, käy läpi seuraava tarkistuslista järj
 - Tarkista passiivin liiallinen käyttö
 - Arvioi virkkeiden pituus ja selkeys
 - Etsi turhaa toistoa ja täytetekstiä
+- Tarkista paikallissija-attribuutit ("kaksio parvekkeella") ja kelluvat essiivit
+- Tarkista, viittaako *joka* sanaan ja *mikä* koko lauseeseen
+- Etsi substantiivitautia: *suorittaa tarkastuksen* → *tarkastaa*
+
+Ks. `references/lauserakenne.md` ja `references/sanojen-asu.md`.
 
 ### Vaihe 6: Yhteenveto
 - Listaa löydetyt virheet ja korjausehdotukset
@@ -404,3 +433,5 @@ Kattavammat ohjeet löytyvät:
 - Kielikello-lehti: https://kielikello.fi/
 
 Epäselvissä tapauksissa tarkista Kielitoimiston sanakirjasta sanan oikea kirjoitusasu ja taivutus.
+
+Tämän skillin omat tarkemmat ohjeet ovat `references/`-kansiossa: luetelmat, lauserakenne, taivutus ja rektiot, välimerkit, sovinnaiset merkinnät sekä sanojen asu ja sananvalinta.
