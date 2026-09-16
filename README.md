@@ -26,37 +26,31 @@ This skill catches and prevents all of these. It's been used in production to ge
 
 ### Option 1: Add to a project (recommended)
 
-Copy the `SKILL.md` file into your project's Claude Code skills directory:
+Copy the whole skill — `SKILL.md` and the `references/` folder — into your project's skills directory:
 
 ```bash
-# Create the skills directory if it doesn't exist
-mkdir -p .claude/skills
-
-# Copy the skill
-cp SKILL.md .claude/skills/suomi-finnish.md
+mkdir -p .claude/skills/suomi-finnish
+cp -R SKILL.md references .claude/skills/suomi-finnish/
 ```
+
+`SKILL.md` also works on its own as a single file. You then lose the reference files, which cover lists, sentence structure, inflection and rections, punctuation, conventional notation, and word choice in more detail.
 
 The skill will automatically activate when Claude Code detects Finnish language work.
 
 ### Option 2: Add globally (all projects)
 
 ```bash
-# Create the global skills directory if it doesn't exist
-mkdir -p ~/.claude/skills
-
-# Copy the skill
-cp SKILL.md ~/.claude/skills/suomi-finnish.md
+mkdir -p ~/.claude/skills/suomi-finnish
+cp -R SKILL.md references ~/.claude/skills/suomi-finnish/
 ```
 
 ### Option 3: One-liner install from GitHub
 
 ```bash
-# Project-level
-mkdir -p .claude/skills && curl -sL https://raw.githubusercontent.com/akunikkola/suomi-finnish-skill/main/SKILL.md -o .claude/skills/suomi-finnish.md
-
-# Global
-mkdir -p ~/.claude/skills && curl -sL https://raw.githubusercontent.com/akunikkola/suomi-finnish-skill/main/SKILL.md -o ~/.claude/skills/suomi-finnish.md
+git clone --depth 1 https://github.com/akunikkola/suomi-finnish-skill.git /tmp/sfs && mkdir -p .claude/skills/suomi-finnish && cp -R /tmp/sfs/SKILL.md /tmp/sfs/references .claude/skills/suomi-finnish/ && rm -rf /tmp/sfs
 ```
+
+Replace `.claude` with `~/.claude` to install globally.
 
 ### Option 4: Install with AI
 
@@ -86,7 +80,18 @@ Add the downloaded file to Claude by dragging it into the Claude Code window or 
 | Dashes | Hyphen (-) vs. en dash (--) usage |
 | Sentence structure | Case agreement, postpositions, possessive suffixes |
 | AI-specific errors | Anglicisms, overly formal tone, filler text |
-| Proofreading | 6-step review checklist |
+| Proofreading | Step-by-step review checklist |
+
+Plus detailed reference files loaded on demand:
+
+| File | Covers |
+|---|---|
+| `references/luetelmat.md` | List punctuation, capitalization, parallel form |
+| `references/lauserakenne.md` | Locative attributes, dangling essives, joka vs. mikä, nominalization |
+| `references/taivutus.md` | Foreign name inflection, rections, abbreviation inflection |
+| `references/valimerkit.md` | Semicolon, colon, brackets, omission marks, non-breaking space |
+| `references/merkinnat.md` | Dates, times, units, contact details, alphabetical order |
+| `references/sanojen-asu.md` | Loanword spelling, anglicisms, parallel accepted forms |
 
 ## Usage
 
@@ -133,27 +138,29 @@ Perustuu [Kielitoimiston ohjepankin](https://kielitoimistonohjepankki.fi/) viral
 
 ### Vaihtoehto 1: Projektitasoinen asennus (suositeltu)
 
+Kopioi koko skill eli `SKILL.md` ja `references/`-kansio:
+
 ```bash
-mkdir -p .claude/skills
-cp SKILL.md .claude/skills/suomi-finnish.md
+mkdir -p .claude/skills/suomi-finnish
+cp -R SKILL.md references .claude/skills/suomi-finnish/
 ```
+
+Pelkkä `SKILL.md` toimii myös yksinään, mutta silloin tarkemmat ohjeet jäävät pois.
 
 ### Vaihtoehto 2: Globaali asennus (kaikki projektit)
 
 ```bash
-mkdir -p ~/.claude/skills
-cp SKILL.md ~/.claude/skills/suomi-finnish.md
+mkdir -p ~/.claude/skills/suomi-finnish
+cp -R SKILL.md references ~/.claude/skills/suomi-finnish/
 ```
 
 ### Vaihtoehto 3: Suora asennus GitHubista
 
 ```bash
-# Projektitasoinen
-mkdir -p .claude/skills && curl -sL https://raw.githubusercontent.com/akunikkola/suomi-finnish-skill/main/SKILL.md -o .claude/skills/suomi-finnish.md
-
-# Globaali
-mkdir -p ~/.claude/skills && curl -sL https://raw.githubusercontent.com/akunikkola/suomi-finnish-skill/main/SKILL.md -o ~/.claude/skills/suomi-finnish.md
+git clone --depth 1 https://github.com/akunikkola/suomi-finnish-skill.git /tmp/sfs && mkdir -p .claude/skills/suomi-finnish && cp -R /tmp/sfs/SKILL.md /tmp/sfs/references .claude/skills/suomi-finnish/ && rm -rf /tmp/sfs
 ```
+
+Globaaliin asennukseen korvaa `.claude` polulla `~/.claude`.
 
 ### Vaihtoehto 4: Asenna tekoälyllä
 
@@ -180,7 +187,16 @@ Lisää ladattu tiedosto Claudeen raahaamalla se Claude Code -ikkunaan tai tuoma
 - Ajatusviiva vs. yhdysviiva
 - Lauserakenne ja kielioppi
 - Tekoälylle tyypilliset virheet (anglismit, mahtipontisuus, täytesanat)
-- 6-vaiheinen oikolukuprosessi
+- Vaiheittainen oikolukuprosessi
+
+Lisäksi `references/`-kansiossa tarkemmat ohjeet, jotka ladataan tarvittaessa:
+
+- `luetelmat.md` — luetelmien välimerkit, alkukirjaimet ja samanmuotoisuus
+- `lauserakenne.md` — paikallissija-attribuutit, kelluva essiivi, joka/mikä, substantiivitauti
+- `taivutus.md` — vieraskielisten nimien taivutus, rektiot, lyhenteiden taivutus
+- `valimerkit.md` — puolipiste, kaksoispiste, sulkeet, poisjätön merkintä, sitova välilyönti
+- `merkinnat.md` — päivämäärät, kellonajat, suureet, yhteystiedot, aakkostus
+- `sanojen-asu.md` — vierassanojen asu, anglismit, rinnakkain hyväksytyt muodot
 
 ## Lisenssi
 
