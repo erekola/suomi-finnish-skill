@@ -12,7 +12,7 @@ Lähde: Kielitoimiston ohjepankki (Kotimaisten kielten keskus / Opetushallitus).
 
 ## Tarkemmat ohjeet
 
-Tämä tiedosto sisältää ydinsäännöt, jotka riittävät useimpiin tehtäviin. Kun työ koskee alla olevaa aihetta, **lue myös vastaava tiedosto `references/`-kansiosta** ennen kuin tuotat tai korjaat tekstin.
+Tämä tiedosto sisältää ydinsäännöt, jotka riittävät useimpiin tehtäviin. Kun työ koskee alla olevaa aihetta, **lue myös vastaava tiedosto `references/`-kansiosta, jos se on saatavilla**, ennen kuin tuotat tai korjaat tekstin.
 
 | Tiedosto | Lue, kun |
 |---|---|
@@ -23,7 +23,7 @@ Tämä tiedosto sisältää ydinsäännöt, jotka riittävät useimpiin tehtävi
 | `references/merkinnat.md` | tekstissä on päivämääriä, kellonaikoja, mittoja tai yhteystietoja |
 | `references/sanojen-asu.md` | teksti sisältää vierassanoja tai kuulostaa anglistiselta |
 
-Jos `references/`-kansiota ei ole asennettu, noudata pelkästään tämän tiedoston sääntöjä.
+**Nämä tiedostot ovat valinnaisia.** Jos `references/`-kansiota ei löydy — esimerkiksi kun skill on asennettu yhtenä tiedostona — älä pidä sitä virheenä äläkä keskeytä työtä. Tämän tiedoston säännöt toimivat itsenäisesti, joten jatka niiden varassa.
 
 ---
 

@@ -68,6 +68,45 @@ Download the ready-made skill package and add it directly to Claude:
 
 Add the downloaded file to Claude by dragging it into the Claude Code window or importing it as a skill from settings.
 
+### Option 6: Single file with everything included
+
+`suomi-finnish-full.md` is a generated bundle containing `SKILL.md` and all six reference files in one document. Use it on platforms that expect a skill to be a single file:
+
+```bash
+curl -sL https://raw.githubusercontent.com/akunikkola/suomi-finnish-skill/main/suomi-finnish-full.md -o suomi-finnish-full.md
+```
+
+Regenerate it after editing any source file:
+
+```bash
+python3 scripts/build-single-file.py
+```
+
+## Upgrading from an earlier install
+
+The skill used to be distributed as a single `SKILL.md` copied to `.claude/skills/suomi-finnish.md`. It is now a directory, because the reference files live beside `SKILL.md`.
+
+Worth knowing: **Claude Code loads a skill from a directory containing a `SKILL.md`.** A bare `.md` file sitting directly in `.claude/skills/` is not picked up as a skill. If you installed with the old instructions, that file was most likely never loading as a skill at all.
+
+To move to the current layout:
+
+```bash
+# Remove the old flat file, if you have one
+rm -f .claude/skills/suomi-finnish.md ~/.claude/skills/suomi-finnish.md
+
+# Install the current version
+git clone --depth 1 https://github.com/akunikkola/suomi-finnish-skill.git /tmp/sfs && mkdir -p .claude/skills/suomi-finnish && cp -R /tmp/sfs/SKILL.md /tmp/sfs/references .claude/skills/suomi-finnish/ && rm -rf /tmp/sfs
+```
+
+Check that it worked:
+
+```bash
+ls .claude/skills/suomi-finnish/
+# SKILL.md  references/
+```
+
+Older copies of `SKILL.md` keep working as before — nothing was removed from it, only corrected and added to. If you pull a newer `SKILL.md` without the `references/` folder, the skill notes that the reference files are optional and continues on its own rules.
+
 ## What it covers
 
 | Area | Examples |
@@ -177,6 +216,45 @@ Lataa valmis skill-paketti ja lisää se suoraan Claudeen:
 [Lataa suomi-finnish.skill (Google Drive)](https://drive.google.com/file/d/1NkfIn7sj8bvBmAM4ZI2ypP3kv9UtRMHF/view?usp=sharing)
 
 Lisää ladattu tiedosto Claudeen raahaamalla se Claude Code -ikkunaan tai tuomalla se skillinä asetuksista.
+
+### Vaihtoehto 6: Yksi tiedosto, joka sisältää kaiken
+
+`suomi-finnish-full.md` on koontiversio, jossa `SKILL.md` ja kaikki kuusi referenssitiedostoa ovat samassa dokumentissa. Käytä sitä alustoilla, jotka odottavat skillin olevan yksi tiedosto:
+
+```bash
+curl -sL https://raw.githubusercontent.com/akunikkola/suomi-finnish-skill/main/suomi-finnish-full.md -o suomi-finnish-full.md
+```
+
+Koontiversio luodaan uudelleen lähdetiedostojen muutosten jälkeen:
+
+```bash
+python3 scripts/build-single-file.py
+```
+
+## Päivitys vanhasta asennuksesta
+
+Skill jaettiin aiemmin yhtenä `SKILL.md`-tiedostona, joka kopioitiin nimelle `.claude/skills/suomi-finnish.md`. Nyt se on hakemisto, koska referenssitiedostot sijaitsevat `SKILL.md`:n rinnalla.
+
+Huomionarvoista: **Claude Code lataa skillin hakemistosta, jossa on `SKILL.md`.** Pelkkä `.md`-tiedosto suoraan `.claude/skills/`-kansiossa ei lataudu skillinä. Jos asensit vanhan ohjeen mukaan, tiedosto ei todennäköisesti ole latautunut skillinä lainkaan.
+
+Siirtyminen nykyiseen rakenteeseen:
+
+```bash
+# Poista vanha litteä tiedosto, jos sellainen on
+rm -f .claude/skills/suomi-finnish.md ~/.claude/skills/suomi-finnish.md
+
+# Asenna nykyinen versio
+git clone --depth 1 https://github.com/akunikkola/suomi-finnish-skill.git /tmp/sfs && mkdir -p .claude/skills/suomi-finnish && cp -R /tmp/sfs/SKILL.md /tmp/sfs/references .claude/skills/suomi-finnish/ && rm -rf /tmp/sfs
+```
+
+Tarkistus:
+
+```bash
+ls .claude/skills/suomi-finnish/
+# SKILL.md  references/
+```
+
+Vanhat `SKILL.md`-kopiot toimivat edelleen kuten ennenkin: tiedostosta ei ole poistettu mitään, vaan sitä on korjattu ja täydennetty. Jos haet uuden `SKILL.md`:n ilman `references/`-kansiota, skill toteaa referenssitiedostot valinnaisiksi ja jatkaa omien sääntöjensä varassa.
 
 ## Mitä skill kattaa
 
