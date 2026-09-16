@@ -130,9 +130,12 @@ Päälauseen ja sivulauseen väliin tulee AINA pilkku:
 - "Talo, joka oli rakennettu vuonna 1920, oli myynnissä." (pilkku molemmin puolin)
 - "Mies, jota etsittiin, löytyi lopulta." (pilkku molemmin puolin)
 
-### 2.5 Pilkku ja kuten
+### 2.5 Pilkku ja tarkentavat lisäykset (kuten, esimerkiksi)
 
-- "Monet marjat, kuten mustikat ja puolukat, kypsyvät elokuussa." (kuten rinnastuskonjunktiona → pilkku edelle)
+Kuten- ja esimerkiksi-alkuiset tarkennukset erotetaan muusta lauseesta pilkuilla. Kyse on lisäyksestä, ei rinnastuskonjunktiosta: virkkeen keskellä pilkku tulee molemmin puolin.
+
+- "Monet marjat, kuten mustikat ja puolukat, kypsyvät elokuussa."
+- "Allergiaa aiheuttavat monet ruoka-aineet, esimerkiksi kala, kananmuna ja pähkinät."
 
 ### 2.6 Pilkku luetteloissa
 
@@ -156,7 +159,7 @@ Suomessa desimaalierotin on pilkku (EI piste):
 Isoa alkukirjainta käytetään:
 - Virkkeen alussa
 - Erisnimissä: Suomi, Helsinki, Euroopan unioni
-- Nimien kaikissa osissa (paitsi yhdistävissä pikkusanoissa pitkissä nimissä): Kotimaisten kielten keskus
+- Moniosaisissa nimissä VAIN ensimmäisessä sanassa, elleivät muut osat ole erisnimiä: Kotimaisten kielten keskus, Opetushallitus, Maahanmuuttovirasto, Helsingin yliopisto
 - Kunnioittavassa puhuttelussa (valinnainen): Te, Teidän
 
 ### 3.2 Pieni alkukirjain
@@ -173,7 +176,9 @@ Suomessa kirjoitetaan pienellä:
 ### 3.3 Erityistapauksia
 
 - Lakien ja asetusten nimet pienellä: perustuslaki, kuntalaki
-- Juhlapyhät isolla: Joulu, Juhannus, Pääsiäinen (HUOM: tästä on vaihtelua; arkisissa yhteyksissä myös pienellä)
+- Juhla- ja merkkipäivien nimet pienellä, samoin kuin viikonpäivät ja kuukaudet: joulu, juhannus, pääsiäinen, vappu, uudenvuodenpäivä, ystävänpäivä
+- Myös juhlapäivätervehdykset pienellä: "Hyvää joulua!", "Hauskaa vappua!"
+- Poikkeus: jos nimi alkaa erisnimellä, erisnimi kirjoitetaan isolla ja erilleen päivä-sanasta: Kalevalan päivä, Lucian päivä, Suomen lipun päivä (mutta yhdysmerkillä Eurooppa-päivä)
 - Taideteosten nimet: ensimmäinen sana isolla, muut pienellä: Seitsemän veljestä
 
 ---
@@ -190,14 +195,22 @@ Kun sanan loppu ei ole mukana lyhenteessä (loppulyhenne), käytetään pistett�
 
 Pisteettömiä ovat:
 - Sisälyhenteet, joissa sanan loppu on mukana: nro (numero), tri (tohtori)
-- Isolla kirjoitetut kirjainlyhenteet: EU, YK, YLE, KELA
+- Kirjaimittain luettavat isokirjainlyhenteet: EU, YK, EKP, HUS
+- Lyhennesanat, jotka luetaan sanana: Kela, Yle, Nato, Unicef — nämä kirjoitetaan niminä, vain alkukirjain isolla
 - Mittayksiköiden tunnukset: kg, km, m, cm, mm, l, dl, h, min, s
 
 ### 4.3 Lyhenteiden taivutus
 
-- Pisteellisiin lyhenteisiin taivutuspääte liitetään ilman kaksoispistettä: esim.:stä → VÄÄRIN; esim. → ei taivuteta
-- Isokirjaimisiin lyhenteisiin pääte kaksoispisteellä: EU:n, YK:ssa, KELA:n
-- Pienillä kirjoitettuihin tunnuksiin pääte suoraan: kg:n, km:llä
+Ratkaisevaa on, miten lyhenne luetaan ääneen.
+
+- Kirjaimittain luettavat lyhenteet: taivutuspääte kaksoispisteellä — EU:n, YK:ssa, EKP:lle, tv:n
+- Sanana luettavat lyhennesanat: taivutus suoraan ilman kaksoispistettä — Kelan, Ylellä, Natoon, Unicefin
+- Mittayksiköiden tunnukset: pääte kaksoispisteellä — kg:n, km:llä
+- Pisteellisiä loppulyhenteitä (esim., ns., mm.) ei taivuteta. Jos taivutusmuotoa tarvitaan, kirjoita sana auki: "esimerkiksi näistä" (EI: "esim.:stä")
+
+Taivutuspääte kirjoitetaan pienellä, vaikka lyhenne olisi isokirjaiminen.
+
+HUOM: asut KELA:n ja YLE ovat vanhentuneita. Nykysuositus on Kela ja Yle.
 
 ### 4.4 Välilyönnit ja lyhenteet
 
@@ -288,13 +301,18 @@ Huom. Passiivia EI pidä käyttää liiallisesti, varsinkaan virkatekstissä —
 
 ### 8.1 Lainausmerkit
 
-Suomessa käytetään:
-- Ensisijaisesti: ”lainaus” (ala- ja yläpuoliset kaksoisheittomerkit)
-- Toissijaisesti (lainauksen sisällä): ’lainaus lainauksen sisällä’
+Suomen kokolainausmerkki on ” (U+201D). Se on SAMANMUOTOINEN lainauksen alussa ja lopussa — toisin kuin englannissa, jossa alkumerkki on käänteinen:
+- ”Näin merkitään suora lainaus.”
+
+Puolilainausmerkki on ’ (U+2019). Sitä käytetään lainauksen sisäisessä lainauksessa ja sanojen merkitysten merkitsemiseen:
+- ”Hän sanoi ’en tule’ ja lähti.”
+
+Kirjoissa ja lehdissä käytetään toisinaan myös kulmalainausmerkkiä » (U+00BB). Myös se on suomessa samanlainen molemmissa päissä: »näin».
 
 EI käytetä:
-- Kulmikkaita lainausmerkkejä »näin» (ruotsin malli)
-- Suoria tikkuheittomerkkejä "näin" (englannin malli) — näitä tosin käytetään yleisesti digitaalisissa teksteissä
+- Englannin mallia “näin”, jossa alkumerkki on käänteinen
+- Saksan mallia „näin“
+- Suoraa konekirjoitusmerkkiä "näin" — se on monien tekstinkäsittelyohjelmien oletus, mutta ei suomen vakiintunut lainausmerkki. Asetuksen voi yleensä vaihtaa.
 
 ### 8.2 Ajatusviiva vs. yhdysviiva (toisto painotukseksi)
 
@@ -329,7 +347,7 @@ Tekoäly tuottaa usein liian ylevää kieltä suomeksi, koska sen opetusdatasta 
 ### 9.3 Yhdyssanavirheet (kriittinen)
 
 Tekoäly tekee erityisen usein yhdyssanavirheitä:
-- Kirjoittaa erikseen sanoja, jotka kuuluvat yhteen: "verkko sivusto" → verkkosivu
+- Kirjoittaa erikseen sanoja, jotka kuuluvat yhteen: "verkko sivusto" → verkkosivusto
 - Kirjoittaa yhteen sanoja, jotka kuuluvat erikseen: "läsnäoleva" → läsnä oleva
 
 ### 9.4 Taivutusvirheet
@@ -345,7 +363,7 @@ Suomen kielen sanajärjestys on vapaampi kuin englannin, mutta tekoäly usein no
 ### 9.6 Muut tyypilliset tekoälyvirheet suomeksi
 
 - Liiallinen passiivin käyttö
-- Turhat liitekysymykset (tag questions) — "eikö niin?" -lisäykset englannnista
+- Turhat liitekysymykset (tag questions) — "eikö niin?" -lisäykset englannista
 - Liian pitkät ja monimutkaiset virkerakenteet
 - Saman asian toistaminen eri sanoin (täyteteksti)
 - Latteita kielikuvia ja kliseitä
