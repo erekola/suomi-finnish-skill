@@ -62,7 +62,7 @@ Maali
 
 ## 3. Osien välissä EI käytetä välimerkkejä
 
-Luetelmamerkki toimii jo erottimena, joten osien väliin ei tule pilkkua eikä puolipistettä — ei silloinkaan, kun sama teksti juoksevassa muodossa vaatisi ne.
+Luetelmamerkki toimii jo erottimena, joten osien väliin ei tule pilkkua eikä puolipistettä. Näin on silloinkin, kun sama teksti juoksevassa muodossa vaatisi ne.
 
 VÄÄRIN:
 

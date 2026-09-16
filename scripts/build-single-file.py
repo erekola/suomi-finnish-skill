@@ -51,8 +51,8 @@ for letter, fname, title in REFS:
     skill = skill.replace("`references/%s`" % fname, "Liite %s: %s" % (letter, title))
 
 skill = skill.replace(
-    "**Nämä tiedostot ovat valinnaisia.** Jos `references/`-kansiota ei löydy — "
-    "esimerkiksi kun skill on asennettu yhtenä tiedostona — älä pidä sitä virheenä "
+    "**Nämä tiedostot ovat valinnaisia.** Jos `references/`-kansiota ei löydy "
+    "esimerkiksi siksi, että skill on asennettu yhtenä tiedostona, älä pidä sitä virheenä "
     "äläkä keskeytä työtä. Tämän tiedoston säännöt toimivat itsenäisesti, joten "
     "jatka niiden varassa.",
     "Kaikki liitteet ovat tässä tiedostossa, joten erillisiä tiedostoja ei tarvita.")

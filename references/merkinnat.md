@@ -58,7 +58,7 @@ viikko 12, vk 12
 
 ## 2. Suureet ja mittayksiköt
 
-Luvun ja yksikön väliin tulee **aina välilyönti** — mieluiten sitova:
+Luvun ja yksikön väliin tulee **aina välilyönti**, mieluiten sitova:
 
 ```
 5 kg          (EI: 5kg)

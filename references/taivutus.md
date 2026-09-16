@@ -46,7 +46,7 @@ Montpellier [mõpeljee] : Montpellier’n : Montpellier’ta
 Glasgow : Glasgow’ta
 ```
 
-Heittomerkki on ’ (U+2019), sama merkki kuin puolilainausmerkki — ei suora heittomerkki '.
+Heittomerkki on ’ (U+2019), sama merkki kuin puolilainausmerkki, ei suora heittomerkki '.
 
 ### 1.4 Päätteen vokaali: a vai ä
 
@@ -81,7 +81,7 @@ Jos ääntöasu ei ole tiedossa eikä kohtuudella selvitettävissä, pääte lii
 
 Rektio tarkoittaa sitä, että sana vaatii seuralaisensa tiettyyn sijamuotoon. Tämä on kielimallin yleisin yksittäinen tarkkuusvirhe suomessa, koska englannin prepositio ei kerro suomen sijaa.
 
-Alla yleisimmät. **Epäselvässä tapauksessa tarkista sana Kielitoimiston sanakirjasta** — se ilmoittaa rektion.
+Alla yleisimmät. **Epäselvässä tapauksessa tarkista sana Kielitoimiston sanakirjasta**. Se ilmoittaa rektion.
 
 ### 2.1 Illatiivi (mihin?)
 

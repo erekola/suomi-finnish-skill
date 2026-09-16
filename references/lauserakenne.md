@@ -84,7 +84,7 @@ OIKEIN:
 
 ## 4. Relatiivipronomini: joka vai mikä
 
-Perussääntö: **joka** viittaa yksittäiseen, rajattuun ja konkreettiseen sanaan, **mikä** abstraktiin tai rajaltaan avoimeen tarkoitteeseen — myös koko edeltävään lauseeseen.
+Perussääntö: **joka** viittaa yksittäiseen, rajattuun ja konkreettiseen sanaan, **mikä** abstraktiin tai rajaltaan avoimeen tarkoitteeseen. **Mikä** voi viitata myös koko edeltävään lauseeseen.
 
 **mikä** valitaan, kun:
 

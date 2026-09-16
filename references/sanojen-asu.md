@@ -17,7 +17,7 @@ kaaos       (ei chaos)
 
 Poikkeuksena sitaattilainat ja erisnimet säilyttävät lähtökielen asun.
 
-**Älä päättele kaksoiskonsonantteja englannin perusteella.** Suomen asu ei seuraa englantia, ja kielimalli arvaa tässä usein väärin. Ainoa luotettava tapa on tarkistaa sana [Kielitoimiston sanakirjasta](https://www.kielitoimistonsanakirja.fi/) — siellä on sekä kirjoitusasu että taivutus.
+**Älä päättele kaksoiskonsonantteja englannin perusteella.** Suomen asu ei seuraa englantia, ja kielimalli arvaa tässä usein väärin. Ainoa luotettava tapa on tarkistaa sana [Kielitoimiston sanakirjasta](https://www.kielitoimistonsanakirja.fi/), jossa on sekä kirjoitusasu että taivutus.
 
 ---
 
@@ -95,7 +95,7 @@ Periaate: kun kaksi muotoa on rinnakkain sallittuja, valitse toinen ja käytä s
 
 ---
 
-## 4. Yleiskieli vs. puhekieli
+## 4. Yleiskieli ja puhekieli
 
 Asiatekstissä käytetään yleiskieltä. Yleisimmät puhekielisyydet, jotka kielimalli päästää läpi:
 
@@ -117,8 +117,8 @@ Huomaa kuitenkin, että markkinointitekstissä ja verkkosisällössä puhuttelu 
 
 Epäselvässä tapauksessa järjestys on:
 
-1. [Kielitoimiston sanakirja](https://www.kielitoimistonsanakirja.fi/) — kirjoitusasu, taivutus, rektio
-2. [Kielitoimiston ohjepankki](https://kielitoimistonohjepankki.fi/) — säännöt ja perustelut
-3. [Iso suomen kielioppi](https://kaino.kotus.fi/visk/etusivu.php) — kuvaileva kielioppi
+1. [Kielitoimiston sanakirja](https://www.kielitoimistonsanakirja.fi/): kirjoitusasu, taivutus, rektio
+2. [Kielitoimiston ohjepankki](https://kielitoimistonohjepankki.fi/): säännöt ja perustelut
+3. [Iso suomen kielioppi](https://kaino.kotus.fi/visk/etusivu.php): kuvaileva kielioppi
 
 Älä arvaa kirjoitusasua. Jos sanaa ei löydy sanakirjasta, harkitse toista sanaa.
