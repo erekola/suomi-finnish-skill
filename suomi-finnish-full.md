@@ -1,7 +1,7 @@
 ---
 name: suomi-finnish
 description: >
-  Suomen kielen oikeinkirjoitus-, kielioppi- ja tyyliohjeistus verkkosivujen, dokumenttien ja muun sisällön tuottamiseen ja tarkastamiseen. Käytä tätä skilliä AINA kun kirjoitat tai tuotat suomenkielistä tekstiä, tarkistat suomenkielistä sisältöä, käännät tekstiä suomeksi, luot verkkosivuston sisältöä suomeksi, kirjoitat markkinointimateriaalia suomeksi, tai kun käyttäjä mainitsee suomen kielen, oikeinkirjoituksen, kieliopin, pilkutuksen, yhdyssanat tai muut suomenkieliset kirjoitussäännöt. Triggeröi myös kun käyttäjä pyytää oikolukua, tekstin tarkastusta tai korjausehdotuksia suomeksi kirjoitetulle tekstille. Käytä tätä skilliä myös kun luot sisältöä suomalaisille verkkosivuille tai palveluille — vaikka käyttäjä ei erikseen mainitse suomen kieltä.
+  Suomen kielen oikeinkirjoitus-, kielioppi- ja tyyliohjeistus verkkosivujen, dokumenttien ja muun sisällön tuottamiseen ja tarkastamiseen. Käytä tätä skilliä AINA kun kirjoitat tai tuotat suomenkielistä tekstiä, tarkistat suomenkielistä sisältöä, käännät tekstiä suomeksi, luot verkkosivuston sisältöä suomeksi, kirjoitat markkinointimateriaalia suomeksi, tai kun käyttäjä mainitsee suomen kielen, oikeinkirjoituksen, kieliopin, pilkutuksen, yhdyssanat tai muut suomenkieliset kirjoitussäännöt. Triggeröi myös kun käyttäjä pyytää oikolukua, tekstin tarkastusta tai korjausehdotuksia suomeksi kirjoitetulle tekstille. Käytä tätä skilliä myös kun luot sisältöä suomalaisille verkkosivuille tai palveluille, vaikka käyttäjä ei erikseen mainitse suomen kieltä.
 ---
 
 # Suomen kielen oikeinkirjoitus- ja kielioppiohjeistus
@@ -27,7 +27,7 @@ Kaikki liitteet ovat tässä tiedostossa, joten erillisiä tiedostoja ei tarvita
 
 ---
 
-## 1. YHDYSSANAT — Yleisin virhetyyppi
+## 1. YHDYSSANAT: yleisin virhetyyppi
 
 Yhdyssanavirheet ovat suomen kielen yleisin kirjoitusvirhe, erityisesti tekoälyn tuottamassa tekstissä. Noudata näitä sääntöjä tarkasti.
 
@@ -49,7 +49,7 @@ Kun sanajonon ensimmäinen osa on perusmuodossa (nominatiivissa) oleva substanti
 - asiakaspalvelu (EI: asiakas palvelu)
 - tietoturva (EI: tieto turva)
 
-### 1.3 Genetiivialkuiset yhdyssanat vs. sanaliitot
+### 1.3 Genetiivialkuiset yhdyssanat ja sanaliitot
 
 Genetiivimuotoisella alkuosalla voi olla kyse joko yhdyssanasta tai sanaliitosta:
 - äidinkieli (vakiintunut kokonaisuus → yhdyssana)
@@ -60,7 +60,7 @@ Genetiivimuotoisella alkuosalla voi olla kyse joko yhdyssanasta tai sanaliitosta
 ### 1.4 Adjektiivialkuiset yhdyssanat
 
 Perusmuotoinen adjektiivi + substantiivi on yhdyssana, kun kokonaisuus on vakiintunut lajinnimi tai termi:
-- harmaalokki, mustikka, pitkämekko, isoveli
+- harmaalokki, kevytmaito, raskasmetalli, isoveli
 
 Erikseen kun adjektiivi kuvaa substantiivia vapaasti:
 - harmaa lokki (yksittäinen lokki, joka sattuu olemaan harmaa)
@@ -74,7 +74,7 @@ Sanaparin jälkiosana olevan partisiipin (-va, -nut, -tu) tai infinitiivin (-ess
 - huomioon ottaen (EI: huomioonottaen)
 - lukuun ottamatta (EI: lukuunottamatta)
 
-POIKKEUS — Kun merkitys on erikoistunut tai kuvallinen, kirjoitetaan yhteen:
+POIKKEUS: kun merkitys on erikoistunut tai kuvallinen, kirjoitetaan yhteen:
 - silmäänpistävä (= huomiota herättävä)
 - poissaoleva (= hajamielinen katse)
 - asiantunteva (= osaava)
@@ -196,16 +196,16 @@ Kun sanan loppu ei ole mukana lyhenteessä (loppulyhenne), käytetään pistett�
 Pisteettömiä ovat:
 - Sisälyhenteet, joissa sanan loppu on mukana: nro (numero), tri (tohtori)
 - Kirjaimittain luettavat isokirjainlyhenteet: EU, YK, EKP, HUS
-- Lyhennesanat, jotka luetaan sanana: Kela, Yle, Nato, Unicef — nämä kirjoitetaan niminä, vain alkukirjain isolla
+- Lyhennesanat, jotka luetaan sanana: Kela, Yle, Nato, Unicef. Nämä kirjoitetaan niminä, vain alkukirjain isolla
 - Mittayksiköiden tunnukset: kg, km, m, cm, mm, l, dl, h, min, s
 
 ### 4.3 Lyhenteiden taivutus
 
 Ratkaisevaa on, miten lyhenne luetaan ääneen.
 
-- Kirjaimittain luettavat lyhenteet: taivutuspääte kaksoispisteellä — EU:n, YK:ssa, EKP:lle, tv:n
-- Sanana luettavat lyhennesanat: taivutus suoraan ilman kaksoispistettä — Kelan, Ylellä, Natoon, Unicefin
-- Mittayksiköiden tunnukset: pääte kaksoispisteellä — kg:n, km:llä
+- Kirjaimittain luettavat lyhenteet: taivutuspääte kaksoispisteellä, esimerkiksi EU:n, YK:ssa, EKP:lle, tv:n
+- Sanana luettavat lyhennesanat: taivutus suoraan ilman kaksoispistettä, esimerkiksi Kelan, Ylellä, Natoon, Unicefin
+- Mittayksiköiden tunnukset: pääte kaksoispisteellä, esimerkiksi kg:n, km:llä
 - Pisteellisiä loppulyhenteitä (esim., ns., mm.) ei taivuteta. Jos taivutusmuotoa tarvitaan, kirjoita sana auki: "esimerkiksi näistä" (EI: "esim.:stä")
 
 Taivutuspääte kirjoitetaan pienellä, vaikka lyhenne olisi isokirjaiminen.
@@ -222,11 +222,11 @@ HUOM: asut KELA:n ja YLE ovat vanhentuneita. Nykysuositus on Kela ja Yle.
 
 ## 5. LUVUT JA NUMEROT
 
-### 5.1 Numerot vs. kirjaimet
+### 5.1 Numerot vai kirjaimet
 
 - Pienet luvut (1–10) mielellään kirjaimin juoksevassa tekstissä: yksi, kaksi, kolme
 - Suuret ja tarkat luvut numeroilla: 150, 2 500, 1 000 000
-- Tilastollisissa ja teknisistä yhteyksissä luvut aina numeroilla
+- Tilastollisissa ja teknisissä yhteyksissä luvut aina numeroilla
 
 ### 5.2 Tuhaterottimet ja desimaalit
 
@@ -293,7 +293,7 @@ Omistusliitteitä suositellaan käytettäväksi kirjakielessä:
 Suomen passiivia käytetään usein yleistävässä merkityksessä:
 - "Suomessa puhutaan suomea ja ruotsia."
 
-Huom. Passiivia EI pidä käyttää liiallisesti, varsinkaan virkatekstissä — aktiivinen ilmaus on usein selkeämpi.
+Huom. Passiivia EI pidä käyttää liiallisesti, varsinkaan virkatekstissä. Aktiivinen ilmaus on usein selkeämpi.
 
 ---
 
@@ -301,7 +301,7 @@ Huom. Passiivia EI pidä käyttää liiallisesti, varsinkaan virkatekstissä —
 
 ### 8.1 Lainausmerkit
 
-Suomen kokolainausmerkki on ” (U+201D). Se on SAMANMUOTOINEN lainauksen alussa ja lopussa — toisin kuin englannissa, jossa alkumerkki on käänteinen:
+Suomen kokolainausmerkki on ” (U+201D). Se on SAMANMUOTOINEN lainauksen alussa ja lopussa, toisin kuin englannissa, jossa alkumerkki on käänteinen:
 - ”Näin merkitään suora lainaus.”
 
 Puolilainausmerkki on ’ (U+2019). Sitä käytetään lainauksen sisäisessä lainauksessa ja sanojen merkitysten merkitsemiseen:
@@ -312,11 +312,11 @@ Kirjoissa ja lehdissä käytetään toisinaan myös kulmalainausmerkkiä » (U+0
 EI käytetä:
 - Englannin mallia “näin”, jossa alkumerkki on käänteinen
 - Saksan mallia „näin“
-- Suoraa konekirjoitusmerkkiä "näin" — se on monien tekstinkäsittelyohjelmien oletus, mutta ei suomen vakiintunut lainausmerkki. Asetuksen voi yleensä vaihtaa.
+- Suoraa konekirjoitusmerkkiä "näin". Se on monien tekstinkäsittelyohjelmien oletus, mutta ei suomen vakiintunut lainausmerkki. Asetuksen voi yleensä vaihtaa.
 
-### 8.2 Ajatusviiva vs. yhdysviiva (toisto painotukseksi)
+### 8.2 Ajatusviiva ja yhdysmerkki (kertaus)
 
-- Yhdysviiva: - (lyhyt, sanojen yhdistämiseen)
+- Yhdysmerkki: - (lyhyt, sanojen yhdistämiseen)
 - Ajatusviiva: – (pidempi, välien ja taukojen merkitsemiseen)
 
 ---
@@ -354,7 +354,7 @@ Tekoäly tekee erityisen usein yhdyssanavirheitä:
 
 - Väärä sijamuoto postpositioiden kanssa
 - Genetiivin ja partitiivin sekoittaminen
-- Monikon genetiivin väärä muoto: "asiakkaiden" vs. "asiakkaitten"
+- Rinnakkaismuotojen turha korjaaminen: monikon genetiivit *asiakkaiden* ja *asiakkaitten* ovat molemmat oikein (ks. Liite C: Taivutus ja rektiot)
 
 ### 9.5 Sanajärjestys
 
@@ -363,7 +363,7 @@ Suomen kielen sanajärjestys on vapaampi kuin englannin, mutta tekoäly usein no
 ### 9.6 Muut tyypilliset tekoälyvirheet suomeksi
 
 - Liiallinen passiivin käyttö
-- Turhat liitekysymykset (tag questions) — "eikö niin?" -lisäykset englannista
+- Turhat liitekysymykset (tag questions), kuten englannin mallin mukaiset "eikö niin?" -lisäykset
 - Liian pitkät ja monimutkaiset virkerakenteet
 - Saman asian toistaminen eri sanoin (täyteteksti)
 - Latteita kielikuvia ja kliseitä
@@ -376,7 +376,7 @@ Kun tarkistat suomenkielistä tekstiä, käy läpi seuraava tarkistuslista järj
 
 ### Vaihe 0: Luetelmat
 
-Jos tekstissä on luetelmia, tarkista ne ensin — ne ovat yleisin yksittäinen virhepesäke. Ks. Liite A: Luetelmat.
+Jos tekstissä on luetelmia, tarkista ne ensin, koska ne ovat yleisin yksittäinen virhepesäke. Ks. Liite A: Luetelmat.
 
 - Ovatko osat keskenään samanmuotoisia?
 - Onko alkukirjain oikea (iso vain täysissä virkkeissä)?
@@ -502,7 +502,7 @@ Maali
 
 ### 3. Osien välissä EI käytetä välimerkkejä
 
-Luetelmamerkki toimii jo erottimena, joten osien väliin ei tule pilkkua eikä puolipistettä — ei silloinkaan, kun sama teksti juoksevassa muodossa vaatisi ne.
+Luetelmamerkki toimii jo erottimena, joten osien väliin ei tule pilkkua eikä puolipistettä. Näin on silloinkin, kun sama teksti juoksevassa muodossa vaatisi ne.
 
 VÄÄRIN:
 
@@ -662,7 +662,7 @@ OIKEIN:
 
 ### 4. Relatiivipronomini: joka vai mikä
 
-Perussääntö: **joka** viittaa yksittäiseen, rajattuun ja konkreettiseen sanaan, **mikä** abstraktiin tai rajaltaan avoimeen tarkoitteeseen — myös koko edeltävään lauseeseen.
+Perussääntö: **joka** viittaa yksittäiseen, rajattuun ja konkreettiseen sanaan, **mikä** abstraktiin tai rajaltaan avoimeen tarkoitteeseen. **Mikä** voi viitata myös koko edeltävään lauseeseen.
 
 **mikä** valitaan, kun:
 
@@ -781,7 +781,7 @@ Montpellier [mõpeljee] : Montpellier’n : Montpellier’ta
 Glasgow : Glasgow’ta
 ```
 
-Heittomerkki on ’ (U+2019), sama merkki kuin puolilainausmerkki — ei suora heittomerkki '.
+Heittomerkki on ’ (U+2019), sama merkki kuin puolilainausmerkki, ei suora heittomerkki '.
 
 #### 1.4 Päätteen vokaali: a vai ä
 
@@ -816,7 +816,7 @@ Jos ääntöasu ei ole tiedossa eikä kohtuudella selvitettävissä, pääte lii
 
 Rektio tarkoittaa sitä, että sana vaatii seuralaisensa tiettyyn sijamuotoon. Tämä on kielimallin yleisin yksittäinen tarkkuusvirhe suomessa, koska englannin prepositio ei kerro suomen sijaa.
 
-Alla yleisimmät. **Epäselvässä tapauksessa tarkista sana Kielitoimiston sanakirjasta** — se ilmoittaa rektion.
+Alla yleisimmät. **Epäselvässä tapauksessa tarkista sana Kielitoimiston sanakirjasta**. Se ilmoittaa rektion.
 
 #### 2.1 Illatiivi (mihin?)
 
@@ -1092,7 +1092,7 @@ viikko 12, vk 12
 
 ### 2. Suureet ja mittayksiköt
 
-Luvun ja yksikön väliin tulee **aina välilyönti** — mieluiten sitova:
+Luvun ja yksikön väliin tulee **aina välilyönti**, mieluiten sitova:
 
 ```
 5 kg          (EI: 5kg)
@@ -1202,7 +1202,7 @@ kaaos       (ei chaos)
 
 Poikkeuksena sitaattilainat ja erisnimet säilyttävät lähtökielen asun.
 
-**Älä päättele kaksoiskonsonantteja englannin perusteella.** Suomen asu ei seuraa englantia, ja kielimalli arvaa tässä usein väärin. Ainoa luotettava tapa on tarkistaa sana [Kielitoimiston sanakirjasta](https://www.kielitoimistonsanakirja.fi/) — siellä on sekä kirjoitusasu että taivutus.
+**Älä päättele kaksoiskonsonantteja englannin perusteella.** Suomen asu ei seuraa englantia, ja kielimalli arvaa tässä usein väärin. Ainoa luotettava tapa on tarkistaa sana [Kielitoimiston sanakirjasta](https://www.kielitoimistonsanakirja.fi/), jossa on sekä kirjoitusasu että taivutus.
 
 ---
 
@@ -1280,7 +1280,7 @@ Periaate: kun kaksi muotoa on rinnakkain sallittuja, valitse toinen ja käytä s
 
 ---
 
-### 4. Yleiskieli vs. puhekieli
+### 4. Yleiskieli ja puhekieli
 
 Asiatekstissä käytetään yleiskieltä. Yleisimmät puhekielisyydet, jotka kielimalli päästää läpi:
 
@@ -1302,8 +1302,8 @@ Huomaa kuitenkin, että markkinointitekstissä ja verkkosisällössä puhuttelu 
 
 Epäselvässä tapauksessa järjestys on:
 
-1. [Kielitoimiston sanakirja](https://www.kielitoimistonsanakirja.fi/) — kirjoitusasu, taivutus, rektio
-2. [Kielitoimiston ohjepankki](https://kielitoimistonohjepankki.fi/) — säännöt ja perustelut
-3. [Iso suomen kielioppi](https://kaino.kotus.fi/visk/etusivu.php) — kuvaileva kielioppi
+1. [Kielitoimiston sanakirja](https://www.kielitoimistonsanakirja.fi/): kirjoitusasu, taivutus, rektio
+2. [Kielitoimiston ohjepankki](https://kielitoimistonohjepankki.fi/): säännöt ja perustelut
+3. [Iso suomen kielioppi](https://kaino.kotus.fi/visk/etusivu.php): kuvaileva kielioppi
 
 Älä arvaa kirjoitusasua. Jos sanaa ei löydy sanakirjasta, harkitse toista sanaa.
